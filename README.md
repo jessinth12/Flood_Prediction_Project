@@ -102,7 +102,7 @@ The model uses the following inputs:
 
 ## 👨‍💻 Author
 
-**Sathwik Sai**  
+**jayanthi sangadi**  
 Machine Learning Enthusiast  
 GitHub: https://github.com/jessinth12
 

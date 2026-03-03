@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Prediction</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f2f2f2;
+            font-family: Arial;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Enter Details for Flood Prediction</h2>
+
+    <form action="/predict" method="post">
+
+        <input type="number" step="any" name="Latitude" placeholder="Latitude" required><br>
+        <input type="number" step="any" name="Longitude" placeholder="Longitude" required><br>
+        <input type="number" step="any" name="Total Deaths" placeholder="Total Deaths" required><br>
+        <input type="number" step="any" name="Total Affected" placeholder="Total Affected" required><br>
+        <input type="number" step="any" name="duration" placeholder="Duration" required><br>
+        <input type="number" step="any" name="time" placeholder="Time" required><br>
+        <input type="number" step="any" name="Rainfall" placeholder="Rainfall" required><br>
+        <input type="number" step="any" name="Elevation" placeholder="Elevation" required><br>
+        <input type="number" step="any" name="Slope" placeholder="Slope" required><br>
+        <input type="number" step="any" name="distance" placeholder="Distance" required><br>
+
+        <br><br>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+</body>
+</html>
